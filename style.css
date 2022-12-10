@@ -1,0 +1,52 @@
+/*Header area styles*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ol {
+    display: flex;
+    list-style-type: none;
+}
+
+ol li{
+    padding-left: 10px;
+}
+/*Body Style*/
+
+body{
+    width: 80%;
+    margin:0 auto;
+}
+
+/*About section*/
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutText{
+    width: 65%;
+    padding-top: 3em;
+}
+#aboutText p{
+    text-align: justify;
+    margin: 0 auto;
+}
+
+#aboutPicture{
+   width: 30%;
+   margin-top:10px;
+}
+
+#aboutPicture img{
+    max-width: 80%;
+    max-height: 80%;
+    padding: 10%;
+    border-radius:20%;
+}
+
+/*Projects Section*/
+#projects h2{
+    text-align: center;
+}
