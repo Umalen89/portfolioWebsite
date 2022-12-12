@@ -1,9 +1,40 @@
+
+/*Body Style*/
+
+body{
+    width: 80%;
+    margin:0 auto;
+    background-image: url("images/backgroundGrid.jpeg");
+}
+
+hr {
+    width: 80%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+p, span {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2, h3, ol{
+    font-family: 'Martian Mono', monospace;
+}
+header, section, #projectTitle{
+    background-color: white;
+}
+
+hr {
+    margin: 0 auto;
+}
 /*Header area styles*/
 header{
     display: flex;
     justify-content: space-between;
     border-bottom: 0.3em solid black;
     align-items: center;
+    padding: 0 1em;
 }
 
 ol {
@@ -13,16 +44,6 @@ ol {
 
 ol li{
     padding-left: 10px;
-}
-/*Body Style*/
-
-body{
-    width: 80%;
-    margin:0 auto;
-}
-
-hr {
-    width: 80%;
 }
 
 /*About section*/
@@ -34,6 +55,7 @@ hr {
 #aboutText{
     width: 65%;
     padding-top: 3em;
+    padding-left: 1em;
 }
 #aboutText p{
     text-align: justify;
@@ -55,6 +77,8 @@ hr {
 /*Projects Section*/
 #projectTitle{
     text-align: center;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 #projects {

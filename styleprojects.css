@@ -1,0 +1,13 @@
+.genStyle {
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h3{
+    margin: 0 auto;
+}
+ .sTitle{
+    padding-top:1em;
+    text-align: center;
+ }
