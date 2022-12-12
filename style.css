@@ -28,6 +28,12 @@ header, section, #projectTitle{
 hr {
     margin: 0 auto;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 /*Header area styles*/
 header{
     display: flex;
@@ -42,9 +48,20 @@ ol {
     list-style-type: none;
 }
 
-ol li{
+header li{
     padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.4em;
 }
+
+header a:visited{
+    color: black;
+}
+
+header a:hover{
+    color: red;
+}
+
 
 /*About section*/
 #about{
@@ -60,11 +77,12 @@ ol li{
 #aboutText p{
     text-align: justify;
     margin: 0 auto;
+    font-size: 1.2em;
 }
 
 #aboutPicture{
    width: 30%;
-   margin-top:10px;
+   margin-top:4.5em;
 }
 
 #aboutPicture img{
@@ -100,5 +118,11 @@ ol li{
 #projects div span{
     font-weight: bold;
     display: block; 
+    text-align: center;
+}
+
+
+/*Conctact Style page*/
+#contact{
     text-align: center;
 }

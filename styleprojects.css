@@ -4,10 +4,26 @@
     margin: 0 auto;
 }
 
-h3{
-    margin: 0 auto;
+.genStyle p, .genStyle ol{
+    text-align: justify;
+    font-size: 1.2em;
 }
- .sTitle{
-    padding-top:1em;
+
+#mTitle{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 0.5em 0;
     text-align: center;
+    color: white;
+    background-color: black;
+    max-width: 43%;
+    margin: 1em auto;
+}
+
+ .sTitle{
+    padding-top: 1em;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
  }

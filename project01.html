@@ -9,32 +9,45 @@
         <h2>My Portfolio Website</h2>
             <nav>
                 <ol>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#aboutText">About</a></li>
                     <li><a href="index.html#projects">Projects</a></li>
-                    <li>Contact</li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ol>
             </nav>
     </header>
-    <h2 class="genStyle sTitle">Random Message Generator</h2>
+    <h2 class="genStyle"n id="mTitle">Random Message Generator</h2>
     
     <ol class="genStyle">
     <br>
     <br>
     <hr>
         <li><h3 class="sTitle">Description</h3>
-        <p>The objective of this project is to generate a random message based on the zodiac sing thematic. The message is divided on to 4 arrays, each of them
-            represents a section of the sentence.
-            <ol class="genStyle">
-                <li>Zodiac Sign</li>
-                <li>Link between Zodiac sign and month related to the selcted sign.</li>
-                <li>Dates corresponding to the Zodiac Sign</li>
-                <li>End of sentence</li>
-            </ol>
-            <br>
-            The link and End of sentences arrays have been given more than one option to choose from to randomize more the resulting sentence.
-        </p>
+            <p>The objective of this project is to generate a random message based on the zodiac sing thematic. The message is divided on to 4 arrays, each of them
+                represents a section of the sentence.
+                <ol class="genStyle">
+                    <li>Zodiac Sign</li>
+                    <li>Link between Zodiac sign and month related to the selcted sign.</li>
+                    <li>Dates corresponding to the Zodiac Sign</li>
+                    <li>End of sentence</li>
+                </ol>
+            </p>
+            <p>The link and End of sentences arrays have been given more than one option to choose from to randomize more the resulting sentence.</p>
         </li>
+        <li><h3 class="sTitle">How it works</h3>
+            <p>The program uses a function to create the random message using three variables (<b>numSign - numLink - numEnd</b>), numSign will store the random index of
+            the Zodiac Sign and its correspondent dates of the month. numLink and numEnd as the name suggest will storage the random index number the link and end sentece respectively.<br>
+            When we are calling more than 1 time the function that generates the message, there is 2 more functions created with a global number history array both, to check if the next index number
+            created has not been used in a previous sentece.</p>
+        </li>
+        <li><h3 class="sTitle">Partipants</h3>
+            <h4>Manuel Delgado Obrero</h4>
+        </li>
+        <li><h3 class="sTitle">Programming Languajes Used</h3>
+            <p>JavaScript, however i would like to implement a html design to give present the project in a better way.</p>
+        </li>
+        <br>
+        <br>
     </ol>
 </body>
 </html>
