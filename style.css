@@ -2,6 +2,8 @@
 header{
     display: flex;
     justify-content: space-between;
+    border-bottom: 0.3em solid black;
+    align-items: center;
 }
 
 ol {
@@ -17,6 +19,10 @@ ol li{
 body{
     width: 80%;
     margin:0 auto;
+}
+
+hr {
+    width: 80%;
 }
 
 /*About section*/
@@ -47,6 +53,28 @@ body{
 }
 
 /*Projects Section*/
-#projects h2{
+#projectTitle{
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    padding: 2%;
+}
+
+#projects div{
+    width: 50%;
+}
+
+#projects div img{
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0.5em auto;
+}
+
+#projects div span{
+    font-weight: bold;
+    display: block; 
     text-align: center;
 }
