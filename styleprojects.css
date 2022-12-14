@@ -2,6 +2,7 @@
     display: block;
     background-color: white;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .genStyle p, .genStyle ol{
@@ -27,3 +28,19 @@
     text-align: center;
     margin: 0 auto;
  }
+
+@media screen and (max-width: 500px){
+    #mTitle{
+        font-size: 1.5em;
+        max-width: 100%;
+    }
+
+    .genStyle{
+        width: 95%;
+        padding: 0 2.5%;
+    }
+
+    .genStyle p, .genStyle ol{
+        font-size: 1em;
+    }
+}

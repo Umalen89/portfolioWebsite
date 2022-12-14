@@ -145,6 +145,11 @@ header a:hover{
     body {
         width: 100%;
     }
+
+    #aboutPicture {
+        height: 75%;
+        align-self: center;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -166,6 +171,19 @@ header a:hover{
 
     nav ol{
         justify-content: space-evenly;
+    }
+
+    #submenu li{
+        background-color: black;
+        color: white;
+    }
+
+    #submenu a:visited {
+        color: white;
+    }
+
+    #submenu a:hover {
+        color: red;
     }
 
     #about {
