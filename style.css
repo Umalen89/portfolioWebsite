@@ -62,6 +62,20 @@ header a:hover{
     color: red;
 }
 
+#submenu {
+    display: none;
+    position: absolute;
+    padding: 0;
+    
+}
+
+#submenu li{
+    font-size: 1em;
+    background-color: white;
+    padding: 0.3em 0.2em;
+    text-align: center;
+}
+
 
 /*About section*/
 #about{
@@ -125,4 +139,69 @@ header a:hover{
 /*Conctact Style page*/
 #contact{
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header{
+        flex-direction: column;
+    }
+
+    header, nav ol, nav li{
+        padding: 0;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav li{
+        font-size: 1.3em;
+    }
+
+    nav ol{
+        justify-content: space-evenly;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+
+    #aboutText {
+        width: 97%;
+        padding: 0.2em;
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
+    #aboutText p {
+        font-size: 1em;
+    }
+
+    #aboutText h2{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    #aboutPicture {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #aboutPicture img{
+        margin: 0 auto;
+    }
+
+    #projects {
+        flex-flow: column;
+    }
+
+    #projects div{
+        width: 100%;
+    }
 }
